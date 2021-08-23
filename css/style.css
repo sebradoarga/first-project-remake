@@ -49,6 +49,10 @@ header nav {
     width: 100%;
 }
 
+header nav h1:hover {
+    cursor: pointer;
+}
+
 header nav i {
     transform: scale(3);
     margin-right: 15px;
@@ -152,6 +156,11 @@ main h2 {
     margin-top: 20px;
 }
 
+.articles article button:hover {
+    background: black;
+    color: white;
+}
+
 footer {
     display: flex;
     flex-direction: column;
@@ -179,4 +188,73 @@ footer nav ul li:hover {
 footer p {
     padding: 20px;
     padding-top: 0;
+}
+
+@media (min-width: 700px){
+    .menu-icon {
+        display: none;
+    }
+
+    .links {
+        display: flex;
+    }
+
+    .links li {
+        font-size: 17px;
+        margin: 0 20px;
+    }
+
+    header article {
+        max-width: 900px;
+        margin-top: 40px;
+        justify-content: center;
+        height: 70vH;    
+    }
+
+    header article h2 {
+        font-size: 50px;
+    }
+
+    header article p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .buttons {
+        flex-direction: row;
+        width: 65%;
+    }
+
+    .buttons button {
+        width: 49%;
+    }
+
+    main h2 {
+        font-size: 40px;
+    }
+
+    .articles {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .articles article {
+        max-width: 300px;
+    }
+
+    footer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    footer nav ul{
+        padding: 10px;
+    }
+
+    footer p {
+        padding: 10px;
+        margin-right: 10px;
+    }
 }
