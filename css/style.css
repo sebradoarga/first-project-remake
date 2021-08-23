@@ -258,3 +258,46 @@ footer p {
         margin-right: 10px;
     }
 }
+
+@media (min-width: 1000px) {
+    header nav {
+        font-size: 25px;
+    }
+
+    .links li {
+        font-size: 35px;
+    }
+
+    header article {
+        max-width: 1100px;
+    }
+
+    header article h2 {
+        font-size: 80px;
+    }
+
+    header article p {
+        font-size: 30px;
+        width: 100%;
+        line-height: 38px;
+    }
+
+    .buttons {
+        width: 70%;
+        margin-top: 40px;
+    }
+
+    .buttons button {
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    main h2 {
+        font-size: 70px;
+    }
+
+    .articles {
+        max-width: 80%;
+    }
+}
