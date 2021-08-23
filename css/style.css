@@ -260,7 +260,7 @@ footer p {
     }
 }
 
-/* @media (min-width: 1000px) {
+@media (min-width: 1500px) {
     header nav {
         font-size: 25px;
     }
@@ -301,4 +301,4 @@ footer p {
     .articles {
         max-width: 80%;
     }
-} */
+} 
